@@ -1,6 +1,7 @@
 #include "stats.h"
 #include <vector>
 #include <algorithm>
+#include <cmath>
 
 Statistics::Stats Statistics::ComputeStatistics(const std::vector<float> &numbers ) {
     Stats statResult;
